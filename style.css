@@ -1,0 +1,544 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    min-height: wrap;
+    padding: 4px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    margin-right: 4%;
+}
+
+.logo {
+    height: 40px;
+    width: 135px;
+    cursor: pointer;
+    margin: 6px 0 6px 5%;
+}
+
+.menu {
+    width: 30px;
+    cursor: pointer;
+    margin: 8px 1%;
+    display: none;
+}
+
+nav ul li {
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    margin-right: 26px;
+    list-style: none;
+    display: inline-block;
+    color: white;
+}
+
+nav ul li a {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #1ABF54;
+}
+
+.gray {
+    color: #EFEFEF;
+}
+
+h1 {
+    letter-spacing: -0.8px;
+}
+
+#anuncio {
+    background-color: #1ABF54;
+    color: white;
+    height: wrap;
+    padding-top: 70px;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 30px;
+}
+
+button {
+    width: wrap;
+    height: 55px;
+    color: white;
+    font-weight: bold;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.botoes {
+    position: absolute;
+}
+
+.botoes button a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#dark {
+    background-color: #212121;
+    font-size: 14px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+#dark:hover {
+    height: 60px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+#light {
+    background-color: transparent;
+    font-size: 14px;
+    border-radius: 50px;
+    border-color: white;
+    border-style: solid;
+}
+
+#light:hover {
+    height: 60px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+#small {
+    margin-top: 40px;
+    font-size: 11px;
+    color: white;
+}
+
+#small2 {
+    margin-top: 20px;
+    font-size: 11px;
+    color: #797979;
+}
+
+#motivos {
+    width: 100%;
+    color: #093017;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: auto;
+}
+
+main.cards {
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+    width: 22%;
+    min-width: 230px;
+    height: 300px;
+    border-style: none;
+}
+
+main.cards section.card:first-child {
+    margin-left: 0;
+}
+
+.icon {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+main.cards section.card img {
+    width: 100%;
+}
+
+#planos {
+    width: 100%;
+    background-color: #EFEFEF;
+    color: #093017;
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#cardtypes {
+    width: 160px;
+}
+
+main.cards2 {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+main.cards2 section.card2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    width: 20%;
+    min-width: 230px;
+    height: 880px;
+    border-style: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 15px;
+    box-shadow: -1px -1px 10px 10px rgb(224, 224, 224);
+    border-style: solid;
+    border-color: #d3d1d1;
+    border-width: thin;
+}
+
+main.cards2 section.card2 h4 {
+    margin-top: -5px;
+}
+
+#opcao {
+    height: 200px;
+}
+
+#assinar {
+    width: 160px;
+    height: wrap;
+    background-color: #1ABF54;
+    color: white;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#unico {
+    width: 190px;
+    height: wrap;
+    border-style: solid;
+    border-width: thin;
+    border-color: #1ABF54;
+    color: #1ABF54;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 100%;
+    margin-top: -5px;
+    border: 2px solid black;
+}
+
+#dark2 {
+    width: 100%;
+    background-color: #212121;
+    font-size: 14px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+#dark2:hover {
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+#green {
+    color: #093017;
+}
+
+#bold {
+    font-size: 20px;
+    color: #093017;
+    font-weight: bolder;
+}
+
+th, td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+#beneficios {
+    height: 400px;
+}
+
+#check {
+    width: 20px;
+}
+
+#final {
+    font-size: 12px;  
+}
+
+.logo2 {
+    height: 40px;
+    width: 135px;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.midias {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+.circulo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #3a3a3a;
+    cursor: pointer;
+    margin: 10px;
+}
+.midias #ig {
+    width: 100%;
+    height: 100%;
+    background: url("assets/igb.png") no-repeat;
+    background-position: center;
+}
+
+.midias #ig:hover{
+    background-image: url("assets/igv.png");
+}
+
+.midias #tw {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: url("assets/twb.png") no-repeat;
+    background-position: center;
+}
+
+.midias #tw:hover{
+    background-image: url("assets/twv.png");
+}
+
+.midias #fb {
+    width: 100%;
+    height: 100%;
+    background-color: #3a3a3a;
+    cursor: pointer;
+    background: url("assets/fbb.png") no-repeat;
+    background-position: center;
+}
+
+.midias #fb:hover{
+    background-image: url("assets/fbv.png");
+}
+
+.midias button #ig:hover {
+    background: url("assets/igv.png");
+}
+
+
+footer {
+    width: 100%;
+    height: wrap;
+    background-color: black;
+    text-align: left;
+    letter-spacing: 0.5px;
+    list-style: none;
+    display: inline-block;
+    color: gray;
+    padding: 10px;
+    padding-top: 100px;
+}
+
+footer ul li {
+    font-weight: bolder;
+    font-size: 13px;
+    list-style: none;
+    color: gray;
+    letter-spacing: 0.5px;
+}
+
+.bottom {
+    align-items: left;
+    margin-left: -60px;
+}
+
+.bottom ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.bottom ul li a{
+    color: gray;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+footer ul {
+    margin-left: 40px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    list-style: none;
+    display: inline-block;
+    color: gray;
+    padding: 10px;
+}
+
+footer ul li a {
+    font-size: 15px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+footer a:hover {
+    color: #1ABF54;
+}
+
+footer ul li a:hover {
+    color: #1ABF54;
+}
+
+.assinatura {
+    text-align: right;
+    margin: 0;
+}
+
+@media screen and (max-width: 920px) {
+
+    nav ul li {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        margin-right: 4%;
+    }
+
+    .logo {
+        width: 90px;
+        height: 25px;
+        margin: 5px;
+    }
+
+    #anuncio {
+        height: wrap;
+    }
+
+    main.cards {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    main.cards section.card {
+        display: flex;
+        flex-direction: row;
+        align-content: left;
+        align-items: left;
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+    }
+
+    main.cards section.card .texto {
+        margin-left: 30px;
+        font-size: 18px;
+    }
+
+    main.cards2 {
+        flex-direction: column;
+        align-items: left;
+        width: 100%;
+        min-width: 20%;
+        padding: 0;
+    }
+
+    main.cards2 section.card2 {
+        align-content: left;
+        align-items: left;
+        width: 400px;
+        min-width: 10%;
+        text-align: left;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    main.cards2 section.card2 #beneficios {
+        height: wrap;
+    }
+
+    main.cards2 section.card2:first-child {
+        height: 540px;
+    }
+
+    main.cards2 section.card2:nth-child(2) {
+        height: 540px;
+    }
+
+    main.cards2 section.card2:nth-child(3) {
+        height: 630px;
+    }
+
+    main.cards2 section.card2:nth-child(4) {
+        height: 580px;
+    }
+
+    main.cards2 section.card2 #opcao {
+        height: 150px;
+    }
+
+    main.cards2 section.card2 #beneficios {
+        height: wrap;
+        margin: 10px;
+    }
+
+    #bold {
+        font-size: 20px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+    .midias {
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+}
